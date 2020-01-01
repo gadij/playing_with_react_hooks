@@ -2,7 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import "./style.scss";
+// eslint-disable-next-line
 import ContextExample from './components/contextExample/ContextProvider';
+import CounterContainerCountByFive from "./components/usingPrevValueInUseState/CounterContainerCountByFive";
+
+
 // import ClassCounter from "./components/Counters/ClassCounter";
 // import HookCounter from "./components/Counters/HookCounter";
 // import ClassMouse from "./components/MouseHover/ClassMouse";
@@ -43,50 +47,52 @@ export const userContext = React.createContext();
 export const ChannelContext = React.createContext();
 
 function App() {
-  return (
-    <div className="App">
-      {/* <ClassCounter /> */}
-      {/* <HookCounter /> */}
-      {/* <HookCounterTwo /> */}
-      {/* <HookCounterWithObject /> */}
-      {/* <HookWithArray /> */}
-      {/* <ClassMouse/> */}
-      {/* <HookMouse /> */}
-      {/* <MouseContainer /> */}
-      {/* <IntervalCounter /> */}
-      {/* <IntervalHookCounter /> */}
-      {/* <DataFetchingUser /> */}
-      {/* <DataFetchingPost /> */}
-      <br />
-      {/* <DataFetchingPosts /> */}
-      {/* <userContext.Provider value={"gadi"}>
+    return (
+        <div className="App">
+            {/* <ClassCounter /> */}
+            {/* <HookCounter /> */}
+            {/* <HookCounterTwo /> */}
+            {/* <HookCounterWithObject /> */}
+            {/* <HookWithArray /> */}
+            {/* <ClassMouse/> */}
+            {/* <HookMouse /> */}
+            {/* <MouseContainer /> */}
+            {/* <IntervalCounter /> */}
+            {/* <IntervalHookCounter /> */}
+            {/* <DataFetchingUser /> */}
+            {/* <DataFetchingPost /> */}
+            {/* <DataFetchingPosts /> */}
+            {/* <userContext.Provider value={"gadi"}>
         <ChannelContext.Provider value="HBO">
           <ComponentA />
           <ComponentOne />
         </ChannelContext.Provider>
       </userContext.Provider> */}
-      {/* <CounterOne /> */}
-      {/* <CounterTwo /> */}
-      {/* <CounterThree /> */}
-      {/* <CounterContainer /> */}
-      {/* <DataFetchingOne /> */}
-      {/* <DataFetchingTwo/> */}
-      {/* <ParentComponent /> */}
-      {/* <Counter/> */}
-      {/* <FocusInput/> */}
-      {/* <HookTimer/> */}
-      {/* <DocTitleOne />
+            {/* <CounterOne /> */}
+            {/* <CounterTwo /> */}
+            {/* <CounterThree /> */}
+            {/* <CounterContainer /> */}
+            {/* <DataFetchingOne /> */}
+            {/* <DataFetchingTwo/> */}
+            {/* <ParentComponent /> */}
+            {/* <Counter/> */}
+            {/* <FocusInput/> */}
+            {/* <HookTimer/> */}
+            {/* <DocTitleOne />
       <DocTitleTwo /> */}
-      {/* <CounterOne />
+            {/* <CounterOne />
       <CounterTwo /> */}
-      {/* < UseForm /> */}
-      <br />
-      {/* <ThemeComponent /> */}
-      {/* <StaleExample /> */}
-      {/* <DataFetchingWithReducer /> */}
-      <ContextExample/>
-    </div>
-  );
+            {/* < UseForm /> */}
+            {/* <ThemeComponent /> */}
+            {/* <StaleExample /> */}
+            {/* <DataFetchingWithReducer /> */}
+
+
+
+            {/* <ContextExample/> */}
+            <CounterContainerCountByFive />
+        </div>
+    );
 }
 
 const rootElement = document.getElementById("root");
