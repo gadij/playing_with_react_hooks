@@ -4,8 +4,9 @@ import ReactDOM from "react-dom";
 import "./style.scss";
 // eslint-disable-next-line
 import ContextExample from './components/contextExample/ContextProvider';
+// eslint-disable-next-line
 import CounterContainerCountByFive from "./components/usingPrevValueInUseState/CounterContainerCountByFive";
-
+import CounterTitleContainer from './components/counterAndUpdateTitle/CounterTitleContainer'
 
 // import ClassCounter from "./components/Counters/ClassCounter";
 // import HookCounter from "./components/Counters/HookCounter";
@@ -90,7 +91,8 @@ function App() {
 
 
             {/* <ContextExample/> */}
-            <CounterContainerCountByFive />
+            {/* <CounterContainerCountByFive /> */}
+            <CounterTitleContainer />
         </div>
     );
 }
