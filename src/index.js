@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import "./styles.scss";
+import "./style.scss";
+import ContextExample from './components/contextExample/ContextProvider';
 // import ClassCounter from "./components/Counters/ClassCounter";
 // import HookCounter from "./components/Counters/HookCounter";
 // import ClassMouse from "./components/MouseHover/ClassMouse";
@@ -83,7 +84,7 @@ function App() {
       {/* <ThemeComponent /> */}
       {/* <StaleExample /> */}
       {/* <DataFetchingWithReducer /> */}
-      hello
+      <ContextExample/>
     </div>
   );
 }
