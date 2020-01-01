@@ -27,5 +27,17 @@
   "bugs": {
     "url": "https://github.com/gadij/playing_with_react_hooks/issues"
   },
-  "homepage": "https://github.com/gadij/playing_with_react_hooks#readme"
+  "homepage": "https://github.com/gadij/playing_with_react_hooks#readme",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
