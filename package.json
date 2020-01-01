@@ -1,0 +1,23 @@
+{
+  "name": "playing_with_hooks",
+  "version": "1.0.0",
+  "description": "examples and best practices of react hooks",
+  "main": "index.js",
+  "dependencies": {
+    "yarn": "^1.21.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gadij/playing_with_react_hooks.git"
+  },
+  "author": "Gadi jacobson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gadij/playing_with_react_hooks/issues"
+  },
+  "homepage": "https://github.com/gadij/playing_with_react_hooks#readme"
+}
