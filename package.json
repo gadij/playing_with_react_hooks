@@ -4,10 +4,11 @@
   "description": "examples and best practices of react hooks",
   "main": "src/index.js",
   "dependencies": {
-    "yarn": "^1.21.1",
+    "node-sass": "^4.13.0",
     "react": "16.12.0",
     "react-dom": "16.12.0",
-    "react-scripts": "3.0.1"
+    "react-scripts": "^3.3.0",
+    "yarn": "^1.21.1"
   },
   "devDependencies": {
     "typescript": "3.3.3"
