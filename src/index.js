@@ -6,8 +6,9 @@ import "./style.scss";
 import ContextExample from './components/contextExample/ContextProvider';
 // eslint-disable-next-line
 import CounterContainerCountByFive from "./components/usingPrevValueInUseState/CounterContainerCountByFive";
+// eslint-disable-next-line
 import CounterTitleContainer from './components/counterAndUpdateTitle/CounterTitleContainer'
-
+import SetIntervalContainer from "./components/setInterval/SetIntervalContainer";
 // import ClassCounter from "./components/Counters/ClassCounter";
 // import HookCounter from "./components/Counters/HookCounter";
 // import ClassMouse from "./components/MouseHover/ClassMouse";
@@ -92,7 +93,8 @@ function App() {
 
             {/* <ContextExample/> */}
             {/* <CounterContainerCountByFive /> */}
-            <CounterTitleContainer />
+            {/* <CounterTitleContainer /> */}
+            <SetIntervalContainer />
         </div>
     );
 }
