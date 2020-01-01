@@ -22,6 +22,21 @@ body, #root, .App {
       justify-content: space-evenly;
       height: 100%;
       align-items: center;
+  }
 
+  .counter__container {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    padding: 1em;
+    
+  }
+  .counter__container--block {
+    @extend .counter__container;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    div {
+        padding: 0.5em;
+    }
   }
   

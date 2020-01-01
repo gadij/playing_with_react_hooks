@@ -10,10 +10,10 @@ export default function ContextProvider() {
     return (
         <UserContext.Provider value={"gadi"}>
             <ChannelContext.Provider value="HBO">
-            <div className='context-container'>
-                <ParentComponentWithHooks/>
-                <ParentComponentNoHooks/>
-            </div>
+                <div className='examples-container'>
+                    <ParentComponentWithHooks />
+                    <ParentComponentNoHooks />
+                </div>
             </ChannelContext.Provider>
         </UserContext.Provider>
     );
