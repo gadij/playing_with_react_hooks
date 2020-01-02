@@ -18,6 +18,8 @@ import TimerContainer from "./components/timerWithRef/TimerContainer";
 import AutoFocusUseRef from './components/autoFocusWithRef/AutoFocusUseRef'
 // eslint-disable-next-line
 import CustomHooksContainer from './components/customHookExamples/CustomHooksContainer'
+// eslint-disable-next-line
+import MouseMovementContainer from './components/trackMouseMovement/MouseMovementContainer'
 
 export const userContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -72,7 +74,8 @@ function App() {
             {/* <IsEvenCountContainer /> */}
             {/* <TimerContainer /> */}
             {/* <AutoFocusUseRef /> */}
-            <CustomHooksContainer />
+            {/* <CustomHooksContainer /> */}
+            <MouseMovementContainer />
         </div>
     );
 }
