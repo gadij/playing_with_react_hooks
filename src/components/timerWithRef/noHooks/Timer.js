@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 
 export default class ClassTimer extends React.Component {
     interval;
