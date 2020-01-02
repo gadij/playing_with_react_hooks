@@ -34,49 +34,14 @@ import CallbackComponent from './components/exampleUseCallback/Parent'
 import ActionVsDispatchContainer from './components/exampleUseReducer/complexReducer/ActionVsDispatchContainer'
 // eslint-disable-next-line
 import UseReducerAndCustomHookContainer from './components/customHookUseReducer/UseReducerAndCustomHookContainer'
+// eslint-disable-next-line
+import Container from './components/useContextUseReducerCustomHookTreeStructure/Container'
 export const userContext = React.createContext();
 export const ChannelContext = React.createContext();
 
 function App() {
     return (
         <div className="App">
-            {/* <ClassCounter /> */}
-            {/* <HookCounter /> */}
-            {/* <HookCounterTwo /> */}
-            {/* <HookCounterWithObject /> */}
-            {/* <HookWithArray /> */}
-            {/* <ClassMouse/> */}
-            {/* <HookMouse /> */}
-            {/* <MouseContainer /> */}
-            {/* <IntervalCounter /> */}
-            {/* <IntervalHookCounter /> */}
-            {/* <DataFetchingUser /> */}
-            {/* <DataFetchingPost /> */}
-            {/* <DataFetchingPosts /> */}
-            {/* <userContext.Provider value={"gadi"}>
-        <ChannelContext.Provider value="HBO">
-          <ComponentA />
-          <ComponentOne />
-        </ChannelContext.Provider>
-      </userContext.Provider> */}
-            {/* <CounterOne /> */}
-            {/* <CounterTwo /> */}
-            {/* <CounterThree /> */}
-            {/* <CounterContainer /> */}
-            {/* <DataFetchingOne /> */}
-            {/* <DataFetchingTwo/> */}
-            {/* <ParentComponent /> */}
-            {/* <Counter/> */}
-            {/* <FocusInput/> */}
-            {/* <HookTimer/> */}
-            {/* <DocTitleOne />
-      <DocTitleTwo /> */}
-            {/* <CounterOne />
-      <CounterTwo /> */}
-            {/* < UseForm /> */}
-            {/* <ThemeComponent /> */}
-            {/* <StaleExample /> */}
-            {/* <DataFetchingWithReducer /> */}
 
 
 
@@ -95,7 +60,8 @@ function App() {
             {/* <Form /> */}
             {/* <CallbackComponent /> */}
             {/* <ActionVsDispatchContainer /> */}
-            <UseReducerAndCustomHookContainer />
+            {/* <UseReducerAndCustomHookContainer /> */}
+            <Container />
         </div>
     );
 }
