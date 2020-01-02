@@ -28,6 +28,8 @@ import DisplayDataContainer from './components/fetchingDataAsync/DisplayDataCont
 import PostFetchingContainer from './components/exampleUseReducer/PostFetchingContainer'
 // eslint-disable-next-line
 import Form from './components/customHookExamples/Form/UseForm';
+// eslint-disable-next-line
+import CallbackComponent from './components/exampleUseCallback/Parent'
 export const userContext = React.createContext();
 export const ChannelContext = React.createContext();
 
@@ -86,7 +88,8 @@ function App() {
             {/* <ThemeContext /> */}
             {/* <DisplayDataContainer /> */}
             {/* <PostFetchingContainer /> */}
-            <Form />
+            {/* <Form /> */}
+            <CallbackComponent />
         </div>
     );
 }
