@@ -17,7 +17,7 @@ import TimerContainer from "./components/timerWithRef/TimerContainer";
 // eslint-disable-next-line
 import AutoFocusUseRef from './components/autoFocusWithRef/AutoFocusUseRef'
 // eslint-disable-next-line
-import CustomHooksContainer from './components/customHookExamples/CustomHooksContainer'
+import CustomHooksContainer from './components/customHookExamples/Counter/CustomHooksContainer'
 // eslint-disable-next-line
 import MouseMovementContainer from './components/trackMouseMovement/MouseMovementContainer'
 // eslint-disable-next-line
@@ -26,7 +26,8 @@ import ThemeContext from './components/contextExample/theme/ThemeContext'
 import DisplayDataContainer from './components/fetchingDataAsync/DisplayDataContainer'
 // eslint-disable-next-line
 import PostFetchingContainer from './components/exampleUseReducer/PostFetchingContainer'
-
+// eslint-disable-next-line
+import Form from './components/customHookExamples/Form/UseForm';
 export const userContext = React.createContext();
 export const ChannelContext = React.createContext();
 
@@ -84,7 +85,8 @@ function App() {
             {/* <MouseMovementContainer /> */}
             {/* <ThemeContext /> */}
             {/* <DisplayDataContainer /> */}
-            <PostFetchingContainer />
+            {/* <PostFetchingContainer /> */}
+            <Form />
         </div>
     );
 }
