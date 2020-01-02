@@ -12,8 +12,10 @@ import CounterTitleContainer from './components/counterAndUpdateTitle/CounterTit
 import SetIntervalContainer from "./components/setInterval/SetIntervalContainer";
 // eslint-disable-next-line
 import IsEvenCountContainer from "./components/usingMemo/isEvenCount/IsEvenCountContainer";
+// eslint-disable-next-line
 import TimerContainer from "./components/timerWithRef/TimerContainer";
 
+import AutoFocusUseRef from './components/autoFocusWithRef/AutoFocusUseRef'
 // import ClassCounter from "./components/Counters/ClassCounter";
 // import HookCounter from "./components/Counters/HookCounter";
 // import ClassMouse from "./components/MouseHover/ClassMouse";
@@ -101,7 +103,8 @@ function App() {
             {/* <CounterTitleContainer /> */}
             {/* <SetIntervalContainer /> */}
             {/* <IsEvenCountContainer /> */}
-            <TimerContainer />
+            {/* <TimerContainer /> */}
+            <AutoFocusUseRef />
         </div>
     );
 }
