@@ -24,6 +24,8 @@ import MouseMovementContainer from './components/trackMouseMovement/MouseMovemen
 import ThemeContext from './components/contextExample/theme/ThemeContext'
 // eslint-disable-next-line
 import DisplayDataContainer from './components/fetchingDataAsync/DisplayDataContainer'
+// eslint-disable-next-line
+import PostFetchingContainer from './components/exampleUseReducer/PostFetchingContainer'
 
 export const userContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -81,7 +83,8 @@ function App() {
             {/* <CustomHooksContainer /> */}
             {/* <MouseMovementContainer /> */}
             {/* <ThemeContext /> */}
-            <DisplayDataContainer />
+            {/* <DisplayDataContainer /> */}
+            <PostFetchingContainer />
         </div>
     );
 }
