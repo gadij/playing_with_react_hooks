@@ -32,6 +32,8 @@ import Form from './components/customHookExamples/Form/UseForm';
 import CallbackComponent from './components/exampleUseCallback/Parent'
 // eslint-disable-next-line
 import ActionVsDispatchContainer from './components/exampleUseReducer/complexReducer/ActionVsDispatchContainer'
+// eslint-disable-next-line
+import UseReducerAndCustomHookContainer from './components/customHookUseReducer/UseReducerAndCustomHookContainer'
 export const userContext = React.createContext();
 export const ChannelContext = React.createContext();
 
@@ -92,7 +94,8 @@ function App() {
             {/* <PostFetchingContainer /> */}
             {/* <Form /> */}
             {/* <CallbackComponent /> */}
-            <ActionVsDispatchContainer />
+            {/* <ActionVsDispatchContainer /> */}
+            <UseReducerAndCustomHookContainer />
         </div>
     );
 }
