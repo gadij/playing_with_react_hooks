@@ -10,7 +10,10 @@ import CounterContainerCountByFive from "./components/usingPrevValueInUseState/C
 import CounterTitleContainer from './components/counterAndUpdateTitle/CounterTitleContainer'
 // eslint-disable-next-line
 import SetIntervalContainer from "./components/setInterval/SetIntervalContainer";
+// eslint-disable-next-line
 import IsEvenCountContainer from "./components/usingMemo/isEvenCount/IsEvenCountContainer";
+import TimerContainer from "./components/timerWithRef/TimerContainer";
+
 // import ClassCounter from "./components/Counters/ClassCounter";
 // import HookCounter from "./components/Counters/HookCounter";
 // import ClassMouse from "./components/MouseHover/ClassMouse";
@@ -97,7 +100,8 @@ function App() {
             {/* <CounterContainerCountByFive /> */}
             {/* <CounterTitleContainer /> */}
             {/* <SetIntervalContainer /> */}
-            <IsEvenCountContainer />
+            {/* <IsEvenCountContainer /> */}
+            <TimerContainer />
         </div>
     );
 }
