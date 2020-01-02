@@ -22,6 +22,8 @@ import CustomHooksContainer from './components/customHookExamples/CustomHooksCon
 import MouseMovementContainer from './components/trackMouseMovement/MouseMovementContainer'
 // eslint-disable-next-line
 import ThemeContext from './components/contextExample/theme/ThemeContext'
+// eslint-disable-next-line
+import DisplayDataContainer from './components/fetchingDataAsync/DisplayDataContainer'
 
 export const userContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -78,7 +80,8 @@ function App() {
             {/* <AutoFocusUseRef /> */}
             {/* <CustomHooksContainer /> */}
             {/* <MouseMovementContainer /> */}
-            <ThemeContext />
+            {/* <ThemeContext /> */}
+            <DisplayDataContainer />
         </div>
     );
 }
