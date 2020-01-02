@@ -1,5 +1,5 @@
 import React, { useReducer, useEffect } from "react";
-import { getPost } from "../../../server/Posts_data";
+import { getPost } from "../../../../server/Posts_data";
 
 const initialState = {
     loading: true,

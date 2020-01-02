@@ -25,11 +25,13 @@ import ThemeContext from './components/contextExample/theme/ThemeContext'
 // eslint-disable-next-line
 import DisplayDataContainer from './components/fetchingDataAsync/DisplayDataContainer'
 // eslint-disable-next-line
-import PostFetchingContainer from './components/exampleUseReducer/PostFetchingContainer'
+import PostFetchingContainer from './components/exampleUseReducer/useReducer/PostFetchingContainer'
 // eslint-disable-next-line
 import Form from './components/customHookExamples/Form/UseForm';
 // eslint-disable-next-line
 import CallbackComponent from './components/exampleUseCallback/Parent'
+// eslint-disable-next-line
+import ActionVsDispatchContainer from './components/exampleUseReducer/complexReducer/ActionVsDispatchContainer'
 export const userContext = React.createContext();
 export const ChannelContext = React.createContext();
 
@@ -89,7 +91,8 @@ function App() {
             {/* <DisplayDataContainer /> */}
             {/* <PostFetchingContainer /> */}
             {/* <Form /> */}
-            <CallbackComponent />
+            {/* <CallbackComponent /> */}
+            <ActionVsDispatchContainer />
         </div>
     );
 }

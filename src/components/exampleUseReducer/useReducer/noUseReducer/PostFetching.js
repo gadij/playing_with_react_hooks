@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { getPost } from "../../../server/Posts_data";
+import { getPost } from "../../../../server/Posts_data";
 
 export default function PostFetching() {
     const [loading, setLoading] = useState(true);
