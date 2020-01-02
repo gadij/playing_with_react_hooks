@@ -20,6 +20,8 @@ import AutoFocusUseRef from './components/autoFocusWithRef/AutoFocusUseRef'
 import CustomHooksContainer from './components/customHookExamples/CustomHooksContainer'
 // eslint-disable-next-line
 import MouseMovementContainer from './components/trackMouseMovement/MouseMovementContainer'
+// eslint-disable-next-line
+import ThemeContext from './components/contextExample/theme/ThemeContext'
 
 export const userContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -75,7 +77,8 @@ function App() {
             {/* <TimerContainer /> */}
             {/* <AutoFocusUseRef /> */}
             {/* <CustomHooksContainer /> */}
-            <MouseMovementContainer />
+            {/* <MouseMovementContainer /> */}
+            <ThemeContext />
         </div>
     );
 }
